@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290684912852",
+    "firebase_url": "https://locationapp-8a893.firebaseio.com",
+    "project_id": "locationapp-8a893",
+    "storage_bucket": "locationapp-8a893.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290684912852:android:aaad9cab342e9febd76741",
+        "android_client_info": {
+          "package_name": "fi.kivelas.locationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290684912852-831n3836esl2to7f26egrphp2f2uf26c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQVOXLHOudvS-hIc31hYcVZS2-F73sn9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290684912852-831n3836esl2to7f26egrphp2f2uf26c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/latitude_readout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/latitude_readout"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/longitude_readout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/longitude_readout"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/latitude_readout"
+        app:layout_constraintTop_toBottomOf="@+id/latitude_readout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/location_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitude_readout" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="72dp"
+        android:hint="@string/hint_latitude"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/location_button"
+        tools:layout_editor_absoluteX="0dp"
+        android:autofillHints="@string/hint_latitude" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hint_longitude"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/latitude"
+        tools:layout_editor_absoluteX="16dp"
+        android:autofillHints="@string/hint_longitude" />
+
+    <Button
+        android:id="@+id/distance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/distance_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitude" />
+
+    <TextView
+        android:id="@+id/distance_result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/distance_result"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/distance_button"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

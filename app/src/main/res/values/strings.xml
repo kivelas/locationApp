@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LocationApp</string>
+    <string name="latitude_readout">Latitude: 0.0</string>
+    <string name="longitude_readout">Longitude: 0.0</string>
+    <string name="location_button">get location</string>
+    <string name="distance_button">find distance</string>
+    <string name="distance_result">0.0</string>
+    <string name="hint_latitude">give latitude</string>
+    <string name="hint_longitude">give longitude</string>
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+</resources>
